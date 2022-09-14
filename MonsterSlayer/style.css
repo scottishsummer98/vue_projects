@@ -1,0 +1,97 @@
+*{
+    background-color: pink;
+}
+.text-center {
+    text-align: center;
+}
+
+.healthbar {
+    width: 80%;
+    height: 40px;
+    background-color: #eee;
+    margin: auto;
+    transition: width 500ms;
+}
+
+.controls, .log {
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid rgb(63, 0, 0);
+    box-shadow: 0px 3px 6px rgb(245, 77, 77);
+}
+
+.turn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.log ul {
+    list-style: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.log ul li {
+    margin: 5px;
+}
+
+.log ul .player-turn {
+    color: blue;
+    background-color: #e4e8ff;
+}
+
+.log ul .monster-turn {
+    color: rgb(255, 255, 255);
+    background-color: #6e0002;
+}
+
+button {
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: #eee;
+    padding: 12px;
+    margin: 10px;
+}
+
+#start-game {
+    background-color: #00b14a;
+}
+
+#start-game:hover {
+    background-color: #01c511;
+}
+
+#attack {
+    background-color: #fc1500;
+}
+
+#attack:hover {
+    background-color: #940002;
+}
+
+#special-attack {
+    background-color: #fcbd70;
+}
+
+#special-attack:hover {
+    background-color: #ff8400;
+}
+
+#heal {
+    background-color: #00b14a;
+}
+
+#heal:hover {
+    background-color: #01c511;
+}
+
+#give-up {
+    background-color: #000000;
+}
+
+#give-up:hover {
+    background-color: #666464;
+}
